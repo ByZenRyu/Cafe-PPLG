@@ -65,7 +65,7 @@
             const quantity = document.getElementById('quantity').value;
             const meja = document.getElementById("No").value;
 
-            const message = `Nomor Meja: ${meja} Pesanan: ${name}\nHarga: ${price}\nJumlah: ${quantity}`;
+            const message = `Nomor Meja: ${meja}\n Pesanan: ${name}\nHarga: ${price}\nJumlah: ${quantity}`;
             const whatsappUrl = `https://wa.me/+6287827716161?text=${encodeURIComponent(message)}`;
             
             window.open(whatsappUrl, '_blank');
